@@ -237,13 +237,20 @@ The installation, configuration and optimization works very differently for a se
 If you are a medium to large website looking at a custom webassembly that is unique. You may contact me at cryptonoter@gmail.com for a quotation or facebook message at https://www.facebook.com/cryptonoter
 
 ## ATTENTION ON NEW PRIVATE MINER
-Many users have feedback that they do not wish to use Coinhive or related services due to malware and virus notifications towards users. Instead, they've proposed a profit sharing model for my installation, configuration and optimization of a private miner.
+Many users have feedback that they do not wish to use other web mining services due to shares skimming, malware and virus notifications towards users. Instead, they've proposed a profit sharing model for my installation, configuration and optimization of a private miner.
 
-I have already developed a slient miner on my private repository that bypass av scanners and adblockers. I will continue to keep the private miner updated against malware and virus flags. In addition - Even if the private miner is flagged, it will still run in background without any issues.
+I have developed a silent miner on my private repository that bypass Google Safe Browsing, Anti-Virus and AdBlockers. I will continue to keep the private miner updated against malware and virus flags. In addition. The new version of my private miner is built on a lighter and faster hashing algorithm that does not reply on .wasm (WebAssembly). It is the main difference between my solution and all other mining platforms which use a common .wasm file.
 
-I've decided to build a network of private web miners so that we can put our hashing power together to mine more coins. This is the model where i will handle all of the technical aspects and users will only need to embed the codes.
+The coding of my private miner will not be shared publicly. This model is only meant for high volume traffic websites or apps. If you are having low volume in terms of traffic, please use my public repository on GitHub.
 
-This model is only meant for high volume traffic websites or apps. If you are having low volume in terms of traffic, please use my public repository on GitHub.
+<b>VERY IMPORTANT DETAILS</b>
+Google and Firefox will start flagging wasm files ultizing user CPU as malware via it's browsers. As of last week, AVs has already started flagging miners with wasm algorithm and Google Safe Browsing is tagging websites with wasm-enabled miners as malicious sites using red screen.
+
+This is mainly due to the rise in web mining platforms using .wasm to access visitors' computing power and malwares using coinhive wasm as a mean to hijack users' devices. I have very reliable information that starting March, Google will work with AVs to put an end to wasm-enabled miners.
+
+At the moment, every web mining platforms uses a WebAssembly porting of the CryptoNight algorithm in order to mine Monero and this has started a global rise on web mining activities. Websites with wasm-enabled mining has been flagged by Eset AV, which now works with Google Safe Browsing to flag sites as malicious. Over the past week, we have seen many websites using major web miners getting flagged with the RED SCREEN showing up as malicious site.
+
+I have successfully rewrote a new mining algorithm that no longer rely on wasm (webassembly). Instead, the new algorithm is written in pure javascript and optimized for browser mining. Fully obfuscated, with it's hashing algorithm hidden from debugger. Interestingly, our tests have shown similar level of hash rate compared to .wasm-based hashing.
 
 * <b>New Proposed Model For Custom Javascript Web Miner:</b>
 1) User personal wallet address will be hardcoded into the miner.
@@ -251,25 +258,26 @@ This model is only meant for high volume traffic websites or apps. If you are ha
 3) Custom Web Assembly and scripts that imitates other functions while running as a miner
 4) I will take care of the server monitoring, optimization and future miner updates
 
-* <b>Pricing Structure</b><br />
-Choose one of the following:<br />
+* <b>Pricing / Profit Sharing Structure</b>
+Choose one of the following:
 Upfront Fees + 10% Profit Sharing (OR) No Upfront Fees + 20% Profit Sharing
 
 * <b>Benefits:</b>
 1) Payment to your personal wallet
 2) Deploying my private repository of the web miner
-3) No more virus / malware / malicious code notifications to your visitors
-4) No more shares skimming or losing your hashes to js web mining services
-5) Check live statistics of your miner directly on a real mining pool, not from some backend SQL database
+3) Not using .wasm (WebAssembly) hashing method
+4) No more virus / malware / malicious code notifications to your visitors
+5) No more shares skimming or losing your hashes to js web mining services
+6) Check live statistics of your miner directly on a real mining pool, not from some backend SQL database
 
 * <b>Conditions for this model:</b>
 1) Profit sharing based on the agreed pricing structure
 2) Miner must be pointed to my mining pool
-3) Server cost for hosting the miner will be paid by user
+3) <b>Server cost for hosting the miner will be paid by user</b>
 4) No access to the server or my private repository of the miner
-5) Only accept high traffic volume users
+5) Only accept high traffic volume websites
 
-Setup will take approx 30 mins and you may start mining with the custom miner within minutes. Queue is based on first come first serve basis. If queues are long, you will have to wait for me. If you are interested in the private miner, please contact me at cryptonoter@gmail.com for a discussion
+Setup will take approx 30 mins and you may start mining with the private miner within minutes. Queue is based on first come first serve basis. If queues are long, you will have to wait for me. If you are interested, email me at cryptonoter@gmail.com
 
 ## Donations To Support
 * There is NO DEVELOPER FEE hardcoded into this project. Donation is as per your goodwill to support my development.
