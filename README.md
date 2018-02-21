@@ -10,7 +10,7 @@ Built for in-browser javascript mining on any Monero (XMR), Electroneum (ETN), S
 
 21/02/18 - Google, Firefox, Anti-Virus and Adblockers have started cracking down on websites that uses wasm-enabled web miners which generally represent almost all of the publicly available web mining platforms. The new version of my private miner is built on a lighter and faster hashing algorithm that does not reply on .wasm (WebAssembly) and are not flagged. For more info, please refer to https://github.com/cryptonoter/CryptoNoter/issues/34
 
-18/01/18 - I am no longer supporting developments of this version of public miner on Github. WebAssembly based mining is facing massive crackdown by AVs and Google. Instead, i am focusing on the private version to stay clear of radar.
+18/01/18 - I am no longer supporting developments of this version of public miner on Github. WebAssembly based mining is facing massive crackdown by AVs and Google. Instead, i am focusing on the private version to stay clear of radar. For users who are still using or intending to use my public miner on this Github, please use it at your own risk.
 
 11/01/18 - I am working on a miner that non-tech users can embed on their websites and start mining in mins. So stay tuned. I will try to keep the interface as clean as possible. No login, no registration. Simply enter wallet address, copy/paste codes and mine.
 
