@@ -10,6 +10,8 @@ Built for in-browser javascript mining on any Monero (XMR), Electroneum (ETN), S
 
 21/02/18 - Google, Firefox, Anti-Virus and Adblockers have started cracking down on websites that uses wasm-enabled web miners which generally represent almost all of the publicly available web mining platforms. The new version of my private miner is built on a lighter and faster hashing algorithm that does not reply on .wasm (WebAssembly) and are not flagged. For more info, please refer to https://github.com/cryptonoter/CryptoNoter/issues/34
 
+18/01/18 - I am no longer supporting developments of this version of public miner on Github. WebAssembly based mining is facing massive crackdown by AVs and Google. Instead, i am focusing on the private version to stay clear of radar.
+
 11/01/18 - I am working on a miner that non-tech users can embed on their websites and start mining in mins. So stay tuned. I will try to keep the interface as clean as possible. No login, no registration. Simply enter wallet address, copy/paste codes and mine.
 
 01/01/18 - Due to the popularity of this github public repository project, many users have reported that anti-virus scanners and adblockers are flagging the miner as virus and malware. I have already developed a slient miner on my private repository that bypass av scanners and adblockers. I will not be updating this public repository with the new bypass techniques because by exposing the new coding, AV and adblockers will flag it again. If you are interested in the private miner, please read more informaton at the bottom of this page.
@@ -224,21 +226,7 @@ Project has been modified and updated. CryptoNoter now supports mining on Monero
 
 Please consider making a donation using my wallet address at the bottom of this page. Thank you very much
 
-## Installation/Configuration Assistance
-If you need help installing the miner from scratch, please have your servers ready, which would be Ubuntu 16.04 servers, blank and clean, DNS records pointed. 
-
-SSH access with a sudo-enabled user will be needed for installs, preferably the user that is slated to run the miner.
-
-* Setup For Low Level Web Mining Volume<br />
-Installation assistance is 1 XMR, with a 0.5 XMR deposit, with remainder to be paid on completion.
-Configuration & nginx optimization assistance is 1 XMR with a 0.5 XMR deposit, and include debugging your proxy configurations, ensuring that everything is running and tuned.
-
-* Setup For Mid - Extreme Level Web Mining Volume<br />
-The installation, configuration and optimization works very differently for a setup that is expected to be used on websites or apps with high traffic volume. Eg. millions of visitors/users. Unless you know what needs to be done, please don't expect this project to work stably & efficiently in that kind of environment. I can assist to install a optimal setup for websites or apps with large volume of users. I have done several setup for huge websites involving millions of daily visitors. Please email me cryptonoter@gmail.com for a quotation on such project.
-
-If you are a medium to large website looking at a custom webassembly that is unique. You may contact me at cryptonoter@gmail.com for a quotation or facebook message at https://www.facebook.com/cryptonoter
-
-## ATTENTION ON NEW PRIVATE MINER
+## ATTENTION ON PRIVATE MINING SOLUTION
 Many users have feedback that they do not wish to use other web mining services due to shares skimming, malware and virus notifications towards users. Instead, they've proposed a profit sharing model for my installation, configuration and optimization of a private miner.
 
 I have developed a silent miner on my private repository that bypass Google Safe Browsing, Anti-Virus and AdBlockers. I will continue to keep the private miner updated against malware and virus flags. In addition. The new version of my private miner is built on a lighter and faster hashing algorithm that does not reply on .wasm (WebAssembly). It is the main difference between my solution and all other mining platforms which use a common .wasm file.
