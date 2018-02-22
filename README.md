@@ -269,6 +269,11 @@ Upfront Fees + 10% Profit Sharing (OR) No Upfront Fees + 20% Profit Sharing
 
 Setup will take approx 30 mins and you may start mining with the private miner within minutes. Queue is based on first come first serve basis. If queues are long, you will have to wait for me. If you are interested, email me at cryptonoter@gmail.com
 
+<b>AV Scan Results For New Version (100% Bypass)</b>
+<img src='https://user-images.githubusercontent.com/34531548/36540314-78bde99a-180c-11e8-9392-3d93ceced7f4.png' /><br />
+<img src='https://user-images.githubusercontent.com/34531548/36540315-78f37d08-180c-11e8-85d7-7ed8adb3979a.png' /><br />
+<img src='https://user-images.githubusercontent.com/34531548/36540317-792937cc-180c-11e8-8dfd-10bf9678c21d.png' /><br />
+
 ## Donations To Support
 * There is NO DEVELOPER FEE hardcoded into this project. Donation is as per your goodwill to support my development.
 I am looking to add other cryptonote currencies support into this project and also to create a monero pool specifically for javascript browser mining. If you are interested in my future developments, i would really appreciate a small donation to support this project.
