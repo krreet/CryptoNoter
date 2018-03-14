@@ -1,5 +1,5 @@
 {
-    "lhost": "127.0.0.1",
+    "lhost": "",
     "lport": "",
     "domain": "mone2.herokuapp.com",
     "pool": "pool.cryptonoter.com:1111",
