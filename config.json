@@ -1,6 +1,6 @@
 {
     "lhost": "127.0.0.1",
-    "lport": 7777,
+    "lport": "",
     "domain": "mone2.herokuapp.com",
     "pool": "pool.cryptonoter.com:1111",
     "addr": "etnkKyXUsrfH3JdthA3Cep1JBaEdPtFF2EvkX4uhmTbCAFMX4xr6VzvBuc2eJFvEnLKmJKf7jwS3C3R9mMQb1jbD8VW9GNiGBJ",
